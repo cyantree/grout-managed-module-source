@@ -1,0 +1,35 @@
+#header{
+  color: white;
+  position: relative;
+
+  background: @mainColor;
+  .linear-background(top, tint(@mainColor, 10), shade(@mainColor, 10));
+
+  p.title{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+
+    a{
+      border: none;
+    }
+  }
+
+  div.menu{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+    display: inline-block;
+
+    a{
+      border-bottom: dotted 1px #c00;
+      margin-left: 15px;
+
+      &:hover{
+        border-bottom: dotted 1px white;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+#menu{
+  display: table-cell;
+  padding: 10px;
+  vertical-align: top;
+
+  background: #e8e8e8;
+  .linear-background(left, #f0f0f0, #e0e0e0);
+  //  @include background(linear-gradient(left, #f0f0f0, #e0e0e0));
+
+  ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li a{
+
+    border-bottom: dotted 1px tint(@mainColor, 50);
+    padding: 5px 50px 5px 15px;
+    margin-bottom: 15px;
+
+    display: block;
+
+    &:hover{
+      border-bottom-color: black;
+      background: #fff;
+      //background: tint($linkColor, 50);
+    }
+  }
+
+  li.active{
+    a{
+      border-bottom-color: black;
+      background: #fff;
+    }
+  }
+}

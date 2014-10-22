@@ -1,0 +1,21 @@
+{
+  "name": "cyantree/grout-managed-module-source",
+  "description": "Frontend sources of cyantree/grout-managed-module"
+  "author": {
+    "name": "cyantree - Christoph Schreiber",
+    "url": "http://www.cyantree.com"
+  },
+  "outputFolder": "public/",
+  "dependencies": {
+    "grunt-banner": "~0.1.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-cli": "~0.1.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-less": "~0.6.5",
+    "grunt-typescript": "~0.2.3",
+    "grunt-dart2js": "0.0.5"
+  }
+}
